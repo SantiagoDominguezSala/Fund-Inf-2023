@@ -1,0 +1,10 @@
+Tarea crear un script que arme la carpeta “datos_personales” en users y que guarde alli un archivo con tu nombre, apellido y edad.
+
+os.mkdir("Datos_Personales")
+
+>>> path = os.getcwd() + "/Datos_Personales" + "/DatosPersonales.txt"
+
+>>> with open(path,"w")as DP:
+...    DP.write("Luciano Ricotti 19")
+... 
+18
