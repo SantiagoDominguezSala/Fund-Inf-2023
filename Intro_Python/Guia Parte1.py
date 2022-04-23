@@ -4,8 +4,6 @@ from math import modf
 #Ejercicio 1
 #Escribir un programa que imprima la longitud de un string el cual se lee por teclado#
 
-s = input("Ingresar Texto Largo:")
-print (len(s))
 
 #Ejercicio 2#
 #Realizar un programa donde se imprima la 5ta y 6ta letra de un string pasado por teclado en mayúscula (Asegurarse de que el string tenga la cantidad de caracteres suficientes).#
