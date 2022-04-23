@@ -1,25 +1,7 @@
 from binhex import FInfo
 from math import modf
 
-#Ejercicio 1
-#Escribir un programa que imprima la longitud de un string el cual se lee por teclado#
 
-
-#Ejercicio 2#
-#Realizar un programa donde se imprima la 5ta y 6ta letra de un string pasado por teclado en mayúscula (Asegurarse de que el string tenga la cantidad de caracteres suficientes).#
-
-s1 = input("Ingresar Texto 5ta y 6ta:")
-print (s1[4] + s1[5])
-
-#Ejercicio 3#
-#Escribir un programa que pregunte el nombre y apellido al usuario y lo salude.
-
-s3 = input("Como es tu nombre y apellido?:")
-print ("Hola " + s3)
-
-#Ejercicio 4#
-#Pedir el nombre y los dos apellidos de una persona y mostrar las iniciales en mayúsculas
-s4a = input("Como es tu nombre:")
 s4b = input("Como es tu primer apellido:")
 s4c = input("Como es tu segundo apellido:")
 print (str.upper(s4a[0] + s4b[0] + s4c[0]))
